@@ -82,7 +82,7 @@ def reply():
         else:
             return respond('El archivo que ha subido no es del tipo imagen: jpg, png')
     else:
-        return respond('No ingresaste una cédula válida, por favor ingrésala nuevamente. En caso de tener alguna duda, por favor lee los términos y condiciones.')
+        return respond('No ingresaste una respuesta válida, por favor ingrésala nuevamente. En caso de tener alguna duda, por favor lee los términos y condiciones.')
 
 if __name__ == '__main__':
     app.run(debug=True)
